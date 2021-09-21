@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+	<title>Калькулятор</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="shortcut icon" href="img/icon.png" type="image/png">
+	<script src="scripts/script.js" defer></script>
+</head>
+<body>
+	<div id="main-frame">
+		<div id="output-frame">
+			<input id="result-math-operation" value="0" readonly>
+		</div>
+		<div id="input-frame">
+			<div id="fifth-input-line">
+				<button id="clear-all-button" onclick="ClearAllButtonClick()">C</button>
+				<button id="div-button" onclick="DivButtonClick()">/</button>
+			</div>
+			<div id="fourth-input-line">
+				<button id="seven-button" onclick="SevenButtonClick()">7</button>
+				<button id="eight-button" onclick="EightButtonClick()">8</button>
+				<button id="nine-button" onclick="NineButtonClick()">9</button>
+				<button id="multiply-button" onclick="MultiplyButtonClick()">x</button>
+			</div>
+			<div id="thirth-input-line">
+				<button id="four-button" onclick="FourButtonClick()">4</button>
+				<button id="five-button" onclick="FiveButtonClick()">5</button>
+				<button id="six-button" onclick="SixButtonClick()">6</button>
+				<button id="minus-button" onclick="MinusButtonClick()">-</button>
+			</div>
+			<div id="second-input-line">
+				<button id="one-button" onclick="OneButtonClick()">1</button>
+				<button id="two-button" onclick="TwoButtonClick()">2</button>
+				<button id="three-button" onclick="ThreeButtonClick()">3</button>
+				<button id="plus-button" onclick="PlusButtonClick()">+</button>
+			</div>
+			<div id="first-input-line">
+				<button id="zero-button" onclick="ZeroButtonClick()">0</button>
+				<button id="result-button" onclick="ResultButtonClick()">=</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

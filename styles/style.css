@@ -1,0 +1,307 @@
+* 
+{
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+#main-frame 
+{
+	margin: 30px 0px 0px 30px;
+	background: #212121;
+	border: 1px solid black;
+	border-radius: 30px;
+	width: 265px;
+	height: 410px;
+}
+
+#main-frame:hover
+{
+    cursor: normal;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+#output-frame 
+{
+	border: 1px solid gray;
+	border-radius: 30px; 
+	margin: 10px 10px 0px 10px;
+	height: 55px;
+}
+
+#output-frame
+{
+    cursor: normal;
+    -ms-user-select: text;
+    -moz-user-select: text;
+    -khtml-user-select: text;
+    -webkit-user-select: text;
+}
+
+#input-frame 
+{
+	border: 1px solid gray;
+	border-radius: 30px;
+	margin: 20px 10px 10px 10px;
+	height: 310px;
+}
+
+#input-frame:hover
+{
+    cursor: normal;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+#clear-all-button 
+{
+	background: lightgray;
+	border-style: none;
+	border-radius: 30px;
+	width: 169px;
+	height: 50px;
+	margin: 10px 0px 0px 10px;
+	background: #C4C4C4;
+	color: black;
+}
+
+#clear-all-button:hover 
+{
+	background: #DADADA;	
+}
+
+button 
+{
+	border-style: none;
+	border-radius: 30px;
+	color: white;
+}
+
+#div-button 
+{
+	background: #B5751D;
+	color: white;
+	width: 50px;
+	height: 50px;
+}
+
+#div-button:hover 
+{
+	background: #EA9827;
+}
+
+#multiply-button 
+{
+	background: #B5751D;
+	color: white;
+	width: 50px;
+	height: 50px;
+}
+
+#multiply-button:hover 
+{
+	background: #EA9827;
+}
+
+#minus-button 
+{
+	background: #B5751D;
+	color: white;
+	width: 50px;
+	height: 50px;
+}
+
+#minus-button:hover 
+{
+	background: #EA9827;
+}
+
+#plus-button 
+{
+	background: #B5751D;
+	color: white;
+	width: 50px;
+	height: 50px;
+}
+
+#plus-button:hover 
+{
+	background: #EA9827;
+}
+
+#fourth-input-line
+{
+	margin: 10px 0px 0px 10px;
+}
+
+#thirth-input-line 
+{
+	margin: 10px 0px 0px 10px;
+}
+
+#second-input-line 
+{
+	margin: 10px 0px 0px 10px;
+}
+
+#first-input-line 
+{
+	margin: 10px 0px 0px 10px;
+}
+
+#seven-button 
+{
+	width: 50px;
+	height: 50px;
+	background: #666666;
+}
+
+#seven-button:hover 
+{
+	background: #939393;
+}
+
+#eight-button 
+{
+	width: 50px;
+	height: 50px;
+	background: #666666;
+}
+
+#eight-button:hover 
+{
+	background: #939393;
+}
+
+#nine-button 
+{
+	width: 50px;
+	height: 50px;
+	background: #666666;
+}
+
+#nine-button:hover 
+{
+	background: #939393;
+}	
+
+#four-button 
+{
+	width: 50px;
+	height: 50px;
+	background: #666666;
+}
+
+#four-button:hover
+{
+	background: #939393;
+}
+
+#five-button
+{
+	width: 50px;
+	height: 50px;
+	background: #666666;
+}
+
+#five-button:hover 
+{
+	background: #939393;
+}
+
+#six-button 
+{
+	width: 50px;
+	height: 50px;
+	background: #666666;
+}
+
+#six-button:hover
+{
+	background: #939393;
+}
+
+#one-button 
+{
+	width: 50px;
+	height: 50px;
+	background: #666666;
+}
+
+#one-button:hover 
+{
+	background: #939393;
+}
+
+#two-button 
+{
+	width: 50px;
+	height: 50px;
+	background: #666666;
+}
+
+#two-button:hover 
+{
+	background: #939393;
+}
+
+#three-button
+{
+	width: 50px;
+	height: 50px;
+	background: #666666;
+}
+
+#three-button:hover 
+{
+	background: #939393;
+}
+
+#zero-button 
+{
+	width: 169px;
+	height: 50px;
+	background: #666666;
+}
+
+#zero-button:hover
+{
+	background: #939393;
+}
+
+#result-button
+{
+	background: #B5751D;
+	color: white;
+	width: 50px;
+	height: 50px;
+}
+
+#result-button:hover
+{
+	background: #EA9827;
+}
+
+#result-math-operation 
+{
+    border-style: none;
+    border-radius: 30px;
+    border: 1px solid gray;
+	font-weight: bold;
+	margin: -1px 7px 0px -1px;
+	text-align: right;
+	color: white;
+	font-size: 27px;
+    background: #212121;
+    height: 53px;
+    width: 239px;
+}
+
+input
+{
+    outline: none;
+}
